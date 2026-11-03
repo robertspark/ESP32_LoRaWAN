@@ -139,3 +139,44 @@ build_flags =
 Before reporting an issue, make sure you've searched for similar one that was already created. Also make sure to go through all the issues labeled as [for reference](https://github.com/HelTecAutomation/ESP32_LoRaWAN/issues).
 
 Also you can talk in our forum: [http://community.heltec.cn/](http://community.heltec.cn/)
+
+## Repository status and workstream maintenance
+
+Documentation review: 3 November 2026. This is repository-local status, not an upstream release or deployment acceptance.
+
+### Purpose and function
+
+Transplanted from Semtech LoRaWAN(https://github.com/Lora-net/LoRaMac-node) protocol to "ESP32 + Arduino" platform. Use RTC, support deep sleep, only working with ESP32 + LoRa boards made by HelTec Automation(TM). Need a unique license to use it.
+
+### Current objective
+
+Maintain a clearly documented local copy for authorised evaluation/development, preserving upstream attribution and distinguishing local changes from upstream capabilities.
+
+### Progress and evidence
+
+This is a fork of HelTecAutomation/ESP32_LoRaWAN. Existing upstream documentation and attribution are retained. Local customisation, upstream parity, build success and runtime/hardware acceptance have not been verified in this documentation review.
+
+### Next steps and roadmap
+
+1. Confirm the next owner-approved outcome and reconcile this default branch with the workstream's actual source, test evidence and deployed version.
+2. Compare with the upstream project before updating and use an appropriate disposable/non-live test setup.
+3. Keep completed/in-progress/blocked work and next actions current here. Broader feature priorities remain for the owning workstream to agree; this update does not invent a feature commitment.
+
+### Documentation chain
+
+Read this README first, then the existing records and source/example entry points below. Listed paths were observed on the inspected default branch; source folders are not test results.
+
+- [examples](examples)
+- [src](src)
+- [CMakeLists.txt](CMakeLists.txt)
+- [library.properties](library.properties)
+
+- [Upstream repository](https://github.com/HelTecAutomation/ESP32_LoRaWAN)
+
+### Standing instruction for every workstream
+
+Every agent, developer or project workstream maintaining this repository must automatically keep this README current with its purpose/function, agreed objective, dated progress, blockers, roadmap/next actions and links to authoritative records. Update it when these facts materially change, at meaningful milestones and before handback, interruption or completion; do not wait for a separate owner reminder.
+
+Read applicable project instructions, preserve concurrent work and existing attribution/licences, and distinguish source commits from deployed versions and verified results. Link requirements, design, handover, validation and recovery records when they exist rather than creating conflicting copies. If a fact is unknown, say so and identify the next verification action. Check affected links, publish authorised changes and verify the remote commit before claiming completion.
+
+Keep credentials, private infrastructure/access routes, private datasets and confidential material out of public documentation. This instruction does not grant new access, replace project-specific authority or approve untested hardware/live operations. Retain detailed historical evidence in project records/version history rather than an ever-growing README log.
